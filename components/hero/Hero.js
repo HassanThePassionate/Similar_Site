@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import { CiMail } from "react-icons/ci";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { RiTwitterXLine } from "react-icons/ri";
+import { FaPinterestP } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -87,23 +91,35 @@ const Hero = () => {
         </div>
         <div>
           <div className="bg-white border-[1px] border-[#d4dbe0] text-black  p-[20px] mb-5">
-            <h3 className="text-[28px] font-semibold">Share this article</h3>
+            <h3 className="text-[28px] font-semibold mb-3">
+              Share this article
+            </h3>
             <div>
-              <ul>
-                <li>
-                  <Link href="#"></Link>
+              <ul className="flex items-center ">
+                <li className="p-[10px] hover:bg-[#D7EFEF] transition-all">
+                  <Link href="#">
+                    <CiMail size={30} color="#09757A" />
+                  </Link>
                 </li>
-                <li>
-                  <Link href="#"></Link>
+                <li className="p-[10px] hover:bg-[#D7EFEF] transition-all">
+                  <Link href="#">
+                    <FaFacebook size={30} color="#09757A" />
+                  </Link>
                 </li>
-                <li>
-                  <Link href="#"></Link>
+                <li className="p-[10px] hover:bg-[#D7EFEF] transition-all">
+                  <Link href="#">
+                    <FaLinkedin size={30} color="#09757A" />
+                  </Link>
                 </li>
-                <li>
-                  <Link href="#"></Link>
+                <li className="p-[10px] hover:bg-[#D7EFEF] transition-all">
+                  <Link href="#">
+                    <RiTwitterXLine size={30} color="#09757A" />
+                  </Link>
                 </li>
-                <li>
-                  <Link href="#"></Link>
+                <li className="p-[10px] hover:bg-[#D7EFEF] transition-all">
+                  <Link href="#">
+                    <FaPinterestP size={30} color="#09757A" />
+                  </Link>
                 </li>
               </ul>
             </div>
