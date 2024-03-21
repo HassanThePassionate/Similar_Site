@@ -10,3 +10,20 @@
 ::selection {
   background-color: #a6fff8;
 }
+.btn,
+.arrow {
+  transition: all 0.3s;
+}
+.btn:hover {
+  .arrow {
+    display: block;
+  }
+}
+.arrow {
+  display: none;
+}
+.slider {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 2fr 1fr 1fr;
+}
