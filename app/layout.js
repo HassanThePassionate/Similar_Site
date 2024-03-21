@@ -40,7 +40,9 @@ export default function RootLayout({ children }) {
       <body className={`${gdsherpa.variable} font-sans`}>
         <div className="px-[10px]">
           <Navbar />
+
           <main>{children}</main>
+
           <Footer />
         </div>
       </body>

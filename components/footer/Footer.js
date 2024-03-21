@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="container">
       <div className="grid grid-cols-4 mt-[20px] py-[30px] gap-y-5 border-t-[1px] border-b-[1px]">
         <ul className="p-[10px] mb-3">
-          <h4 className="text-2xl mb-4">Online Marketing</h4>
+          <h4 className="text-2xl font-bold  mb-4">Online Marketing</h4>
           <li className="mb-3 cursor-pointer  text-[#09757A] hover:text-[#1bdbdb]">
             <Link href="#" className="underline">
               Digital Marketing Suite
@@ -24,7 +24,7 @@ const Footer = () => {
           </li>
         </ul>
         <ul className="p-[10px] mb-3">
-          <h4 className="text-2xl mb-4">Productivity</h4>
+          <h4 className="text-2xl font-bold mb-4">Productivity</h4>
           <li className="mb-3 cursor-pointer  text-[#09757A] hover:text-[#1bdbdb]">
             <Link href="#" className="underline">
               Professional Email
@@ -37,7 +37,7 @@ const Footer = () => {
           </li>
         </ul>
         <ul className="p-[10px] mb-3">
-          <h4 className="text-2xl mb-4">Websites & Security</h4>
+          <h4 className="text-2xl font-bold mb-4">Websites & Security</h4>
           <li className="mb-3 cursor-pointer  text-[#09757A] hover:text-[#1bdbdb]">
             <Link href="#" className="underline">
               Website Design Services
@@ -50,7 +50,7 @@ const Footer = () => {
           </li>
         </ul>
         <ul className="p-[10px] mb-3">
-          <h4 className="text-2xl mb-4">Hosting & Servers</h4>
+          <h4 className="text-2xl font-bold mb-4">Hosting & Servers</h4>
           <li className="mb-3 cursor-pointer  text-[#09757A] hover:text-[#1bdbdb]">
             <Link href="#" className="underline">
               Gen 4 VPS & Dedicated Servers
@@ -73,7 +73,7 @@ const Footer = () => {
           </li>
         </ul>
         <ul className="p-[10px] mb-3">
-          <h4 className="text-2xl mb-4">Partner Programs</h4>
+          <h4 className="text-2xl font-bold mb-4">Partner Programs</h4>
           <li className="mb-3 cursor-pointer  text-[#09757A] hover:text-[#1bdbdb]">
             <Link href="#" className="underline">
               API Reseller
@@ -86,7 +86,7 @@ const Footer = () => {
           </li>
         </ul>
         <ul className="p-[10px] mb-3">
-          <h4 className="text-2xl mb-4">Domain Aftermarket</h4>
+          <h4 className="text-2xl font-bold mb-4">Domain Aftermarket</h4>
           <li className="mb-3 cursor-pointer   text-[#09757A] hover:text-[#1bdbdb] ">
             <Link href="#" className="underline">
               GoDaddy Auctions®
@@ -114,7 +114,7 @@ const Footer = () => {
           </li>
         </ul>
         <ul className="p-[10px] mb-3">
-          <h4 className="text-2xl mb-4">Legacy</h4>
+          <h4 className="text-2xl font-bold mb-4">Legacy</h4>
           <li className="mb-3 cursor-pointer  text-[#09757A] hover:text-[#1bdbdb] ">
             <Link href="#" className="underline ">
               Calendar

@@ -33,14 +33,8 @@ const Home = () => {
               <h4 className="text-3xl mb-[16px] font-semibold">
                 Register your <br /> domain name today.
               </h4>
-              <button className="py-[12px] px-[48px] bg-black rounded-md text-white font-semibold flex items-center gap-2  btn ">
+              <button className="py-[12px] px-[48px] bg-black rounded-md text-white font-semibold flex items-center gap-2 hover:bg-slate-700 ">
                 Search For Domain
-                <span>
-                  <MdOutlineArrowRightAlt
-                    size={34}
-                    className="mt-[2px] arrow  "
-                  />
-                </span>
               </button>
             </div>
           </div>

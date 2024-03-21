@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 .container {
+  margin: 0 auto;
   max-width: 1800px;
-  padding: 0 54px;
-  overflow: hidden;
+  padding: 0 16px;
+  width: 100%;
 }
+
 ::selection {
   background-color: #a6fff8;
 }
@@ -26,4 +28,8 @@
   display: grid;
   gap: 2rem;
   grid-template-columns: 2fr 1fr 1fr;
+}
+.slide:hover {
+  transform: scale(1.03);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.12);
 }

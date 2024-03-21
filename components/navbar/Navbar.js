@@ -4,7 +4,7 @@ import Nav from "./nav/Nav";
 const Navbar = () => {
   return (
     <header className="bg-white">
-      <div className="container max-w-[1800px]">
+      <div className="container">
         <Nav />
       </div>
     </header>

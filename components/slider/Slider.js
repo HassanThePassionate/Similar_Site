@@ -16,8 +16,10 @@ const Slider = () => {
 
   return (
     <div className="container">
-      <div className="my-[20px]">
-        <h2 className="text-2xl font-semibold">Best Streaming Websites</h2>
+      <div className="my-[25px]">
+        <h2 className="text-4xl mb-[24px] font-bold">
+          Best Streaming Websites
+        </h2>
         <div className="flex items-center justify-between">
           <div className="flex items-start py-[4px] gap-[8px] mt-[10px] mb-[24px]">
             <div className="pt-[12px] px-[24px] pb[32px] border-[2px] cursor-pointer border-[#111] bg-[#111]  text-white font-semibold h-[50px] rounded-full text-center   hover:scale-[1.03] transition">
@@ -33,9 +35,8 @@ const Slider = () => {
         </div>
 
         <Swiper
-          slidesPerView={"4"}
-          speed={1100}
-          spaceBetween={30}
+          slidesPerView={"3"}
+          spaceBetween={10}
           modules={[Navigation]}
           onSwiper={(swiper) => setSwiperInstance(swiper)}
           navigation={{
@@ -45,9 +46,9 @@ const Slider = () => {
           className="mySwiper"
         >
           <div className="slider mb-[20px]">
-            <SwiperSlide style={{ minWidth: "810px" }}>
+            <SwiperSlide style={{ minWidth: "820px" }}>
               <div
-                className="bg-[#F2F0ED] p-[27px] rounded-lg hover:shadow-xl transition-all cursor-pointer flex items-start justify-between"
+                className="bg-[#F2F0ED]  p-[27px] slide rounded-lg  cursor-pointer flex items-start justify-between slide"
                 data-aos="fade-up"
               >
                 <div className=" self-center">
@@ -72,9 +73,9 @@ const Slider = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide style={{ maxWidth: "400px" }}>
+            <SwiperSlide>
               <div
-                className="bg-[#EDEFF1] p-[27px] rounded-lg flex hover:shadow-xl transition-all cursor-pointer items-start flex-col"
+                className="bg-[#EDEFF1] w-[440px] p-[27px] slide rounded-lg flex  transition-all cursor-pointer items-start flex-col"
                 data-aos="fade-up"
               >
                 <div>
@@ -99,9 +100,9 @@ const Slider = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide style={{ maxWidth: "400px" }}>
+            <SwiperSlide>
               <div
-                className="bg-[#EDEFF1] p-[27px] rounded-lg flex hover:shadow-xl transition-all cursor-pointer items-start flex-col"
+                className="bg-[#EDEFF1]  p-[27px] slide rounded-lg flex  transition-all cursor-pointer items-start flex-col"
                 data-aos="fade-up"
               >
                 <div>
@@ -126,9 +127,9 @@ const Slider = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide style={{ maxWidth: "400px" }}>
+            <SwiperSlide>
               <div
-                className="bg-[#EDEFF1] p-[27px] rounded-lg flex hover:shadow-xl transition-all cursor-pointer items-start flex-col"
+                className="bg-[#EDEFF1]  p-[27px] slide rounded-lg flex  transition-all cursor-pointer items-start flex-col"
                 data-aos="fade-up"
               >
                 <div>
@@ -153,9 +154,9 @@ const Slider = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide style={{ maxWidth: "400px" }}>
+            <SwiperSlide>
               <div
-                className="bg-[#EDEFF1] p-[27px] rounded-lg flex hover:shadow-xl transition-all cursor-pointer items-start flex-col"
+                className="bg-[#EDEFF1]  p-[27px] slide rounded-lg flex  transition-all cursor-pointer items-start flex-col"
                 data-aos="fade-up"
               >
                 <div>
@@ -180,9 +181,9 @@ const Slider = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide style={{ maxWidth: "400px" }}>
+            <SwiperSlide>
               <div
-                className="bg-[#EDEFF1] p-[27px] rounded-lg flex hover:shadow-xl transition-all cursor-pointer items-start flex-col"
+                className="bg-[#EDEFF1]  p-[27px] slide rounded-lg flex  transition-all cursor-pointer items-start flex-col"
                 data-aos="fade-up"
               >
                 <div>
