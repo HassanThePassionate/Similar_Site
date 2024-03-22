@@ -1,6 +1,8 @@
 "use client";
 import localFont from "@next/font/local";
 import "./globals.css";
+import "../style/reset.css";
+import "../style/variables.css";
 import { React, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";

@@ -1,18 +1,16 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import style from "./Drop.module.css";
 
-const Dots = () => {
+const Drop = () => {
   const [showMenu, setshowMenu] = useState(false);
   const handleMenu = () => {
     setshowMenu(!showMenu);
   };
   return (
-    <div>
-      <button
-        className="text-[#5E5E5E] hover:text-[#1BDBDB]  transition"
-        onClick={handleMenu}
-      >
+    <>
+      <button className={style.btn} onClick={handleMenu}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -25,32 +23,30 @@ const Dots = () => {
         </svg>
       </button>
       {showMenu === true ? (
-        <div className="shadow:md text-[#2b2b2b] min-w-[232px] pt-[16px] pb-[10px] bg-white border-[1px] border-[#d6d6d6] absolute z-50 left-[140px] top-16 rounded px-[24px] ">
+        <div className={style.drop_down}>
           <ul>
-            <li className="py-[8px]  text-[#5e5e5e] hover:underline cursor-pointer">
+            <li>
               <Link href="#">Manage My Product</Link>
             </li>
-            <li className="py-[8px]  text-[#5e5e5e] hover:underline cursor-pointer border-b-[1px] border-[#d6d6d6]">
+            <li className={style.top}>
               <Link href="#">Shop GoDaddy.com</Link>
             </li>
           </ul>
-          <h4 className="text-md font-bold pt-[12px]  mb-[12px]">
-            Quick Links
-          </h4>
+          <h4>Quick Links</h4>
           <ul>
-            <li className="py-[8px]  text-[#5e5e5e] hover:underline cursor-pointer  ">
+            <li>
               <Link href="#">Domains</Link>
             </li>
-            <li className="py-[8px]  text-[#5e5e5e] hover:underline cursor-pointer  ">
+            <li>
               <Link href="#">Websites</Link>
             </li>
-            <li className="py-[8px]  text-[#5e5e5e] hover:underline cursor-pointer  ">
+            <li>
               <Link href="#">Hosting & WordPress</Link>
             </li>
-            <li className="py-[8px]  text-[#5e5e5e] hover:underline cursor-pointer  ">
+            <li>
               <Link href="#">Email & Office</Link>
             </li>
-            <li className="py-[8px]  text-[#5e5e5e] hover:underline cursor-pointer  ">
+            <li>
               <Link href="#">SSL Certificaties</Link>
             </li>
           </ul>
@@ -58,8 +54,8 @@ const Dots = () => {
       ) : (
         ""
       )}
-    </div>
+    </>
   );
 };
 
-export default Dots;
+export default Drop;

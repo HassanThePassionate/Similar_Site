@@ -1,0 +1,27 @@
+.search {
+  display: flex;
+  margin-top: 16px;
+}
+.search input {
+  height: 42px;
+  width: 400px;
+  padding: 8px;
+  border: 1px solid #767676;
+  font-weight: 500;
+  font-size: 16px;
+  outline: none;
+}
+.search span {
+  padding: 8px 16px;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: all;
+  cursor: pointer;
+}
+.search span:hover {
+  background-color: rgb(36, 33, 33);
+}

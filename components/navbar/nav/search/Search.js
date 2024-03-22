@@ -1,16 +1,15 @@
-import React from "react";
+import style from "./search.module.css";
 
 const Search = () => {
   return (
-    <div className="mx-[50px] flex">
+    <div className={style.search}>
       <input
         type="text"
         name="search"
         id="search"
         placeholder="What can we Help with?"
-        className="h-11 w-[500px] py-1.5 px-3 border-[1px] border-[#767676] text-md font-[300] outline-none "
       />
-      <span className="py-[8px] px-[16px] bg-black text-white flex items-center justify-center hover:bg-slate-800 transition cursor-pointer">
+      <span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"

@@ -1,25 +1,23 @@
 import Link from "next/link";
-import React from "react";
+import style from "./Navs.module.css";
 
 const Navs = () => {
   return (
-    <div className=" bg-white border-b-[1px] border-[#D6D6D6] sticky top-0 z-50">
+    <div className={style.wrapper}>
       <div className="container">
-        <div className=" flex items-center">
-          <div>
-            <h3 className=" font-bold">Domain Tools and Services</h3>
-          </div>
-          <ul className="flex items-center pl-[150px]">
-            <li className=" mx-[20px] py-[23px] border-b-[2px] border-transparent   hover:border-b-[2px] hover:border-black font-semibold transition-all">
+        <div className={style.divider}>
+          <h3>Domain Tools and Services</h3>
+          <ul className={style.list}>
+            <li>
               <Link href="#">Generate Domain & Business Names</Link>
             </li>
-            <li className="px-[20px] py-[23px] border-b-[2px] border-black font-medium transition-all font-semibold">
+            <li>
               <Link href="#">Find a Domain Owner (WHOIS)</Link>
             </li>
-            <li className="mx-[20px] py-[23px] border-b-[2px] border-transparent   hover:border-b-[2px] hover:border-black font-semibold  transition-all">
+            <li>
               <Link href="#">Primium DNS</Link>
             </li>
-            <li className="px-[20px] py-[23px] border-b-[2px] border-transparent   hover:border-b-[2px] hover:border-black font-semibold  transition-all">
+            <li>
               <Link href="#" className="flex items-center gap-1">
                 More
                 <span>

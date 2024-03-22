@@ -1,22 +1,22 @@
 import Link from "next/link";
-import React from "react";
+import style from "./navMenu.module.css";
 
 const NavMenu = () => {
   return (
-    <ul className="flex items-center ml-[50px] font-light">
-      <li className="mr-6 hover:underline">
+    <ul className={style.list}>
+      <li>
         <Link href="#">Help</Link>
       </li>
-      <li className="mr-6 hover:underline">
+      <li>
         <Link href="#">Learn</Link>
       </li>
-      <li className="mr-6 hover:underline">
+      <li>
         <Link href="#">Community</Link>
       </li>
-      <li className="mr-6 hover:underline">
+      <li>
         <Link href="#">System Status</Link>
       </li>
-      <li className="mr-6 hover:underline">
+      <li>
         <Link href="#">Contatct Us</Link>
       </li>
     </ul>

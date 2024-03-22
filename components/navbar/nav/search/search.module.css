@@ -1,0 +1,26 @@
+.search {
+  display: flex;
+}
+.search input {
+  height: 25px;
+  width: 500px;
+  padding: 8px;
+  border: 1px solid #767676;
+  font-weight: 500;
+  font-size: 14px;
+  outline: none;
+}
+.search span {
+  padding: 8px 16px;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: all;
+  cursor: pointer;
+}
+.search span:hover {
+  background-color: rgb(36, 33, 33);
+}

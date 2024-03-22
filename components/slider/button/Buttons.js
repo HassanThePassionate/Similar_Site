@@ -1,12 +1,9 @@
-import React from "react";
+import style from "./button.module.css";
 
 const Buttons = ({ next, prev }) => {
   return (
-    <div className="flex items-center gap-2 mr-[10px] mb-[20px]">
-      <div
-        className="border-[1px] p-[16px] border-black flex items-center justify-center rounded-full h-[60px] w-[60px] cursor-pointer hover:bg-[#f2f2f2]"
-        onClick={prev}
-      >
+    <div className={style.wrapper}>
+      <div className={style.btn} onClick={prev}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 320 512"
@@ -23,10 +20,7 @@ const Buttons = ({ next, prev }) => {
           ></path>
         </svg>
       </div>
-      <div
-        className="border-[1px] p-[16px] border-black flex items-center justify-center rounded-full h-[60px] w-[60px] cursor-pointer hover:bg-[#f2f2f2]"
-        onClick={next}
-      >
+      <div className={style.btn} onClick={next}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 320 512"

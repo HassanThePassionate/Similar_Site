@@ -1,0 +1,40 @@
+.list {
+  display: flex;
+  align-items: center;
+}
+.list li {
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.help_icon {
+  color: var(--btn_color);
+  padding-top: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.icon {
+  padding-top: 8px;
+  color: var(--btn_color);
+  transition: all 0.3s ease-in-out;
+}
+.icon:hover {
+  color: var(--hover-color);
+}
+.help_icon:hover {
+  color: var(--hover-color);
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--btn_color);
+  transition: all 0.3s ease-in-out;
+}
+.wrap:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+.wrap span:last-child {
+  padding-top: 8px;
+}

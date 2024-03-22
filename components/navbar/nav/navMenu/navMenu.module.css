@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.list li a {
+  color: var(--dark-color);
+  margin-right: 24px;
+}
+.list a:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
