@@ -2,7 +2,7 @@ import React from "react";
 
 const Buttons = ({ next, prev }) => {
   return (
-    <div className="flex items-center gap-2 mr-[10px]">
+    <div className="flex items-center gap-2 mr-[10px] mb-[20px]">
       <div
         className="border-[1px] p-[16px] border-black flex items-center justify-center rounded-full h-[60px] w-[60px] cursor-pointer hover:bg-[#f2f2f2]"
         onClick={prev}

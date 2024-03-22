@@ -36,7 +36,7 @@ const Slider = () => {
 
         <Swiper
           slidesPerView={"3"}
-          spaceBetween={10}
+          spaceBetween={30}
           modules={[Navigation]}
           onSwiper={(swiper) => setSwiperInstance(swiper)}
           navigation={{
@@ -46,7 +46,7 @@ const Slider = () => {
           className="mySwiper"
         >
           <div className="slider mb-[20px]">
-            <SwiperSlide style={{ minWidth: "820px" }}>
+            <SwiperSlide>
               <div
                 className="bg-[#F2F0ED]  p-[27px] slide rounded-lg  cursor-pointer flex items-start justify-between slide"
                 data-aos="fade-up"
@@ -75,7 +75,7 @@ const Slider = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div
-                className="bg-[#EDEFF1] w-[440px] p-[27px] slide rounded-lg flex  transition-all cursor-pointer items-start flex-col"
+                className="bg-[#EDEFF1]  p-[27px] slide rounded-lg flex  transition-all cursor-pointer items-start flex-col"
                 data-aos="fade-up"
               >
                 <div>

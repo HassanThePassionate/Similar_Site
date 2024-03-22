@@ -8,6 +8,8 @@ const page = () => {
         <Navs />
         <Home />
         <Slider />
+        <Slider />
+        <Slider />
       </div>
     </>
   );
