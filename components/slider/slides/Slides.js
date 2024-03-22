@@ -25,6 +25,7 @@ const Slides = ({ setSwiperInstance }) => {
         }}
         className="mySwiper"
       >
+        {/* <SwiperSlide className={style.slide}></SwiperSlide>
         <SwiperSlide className={style.slide}></SwiperSlide>
         <SwiperSlide className={style.slide}></SwiperSlide>
         <SwiperSlide className={style.slide}></SwiperSlide>
@@ -37,10 +38,9 @@ const Slides = ({ setSwiperInstance }) => {
         <SwiperSlide className={style.slide}></SwiperSlide>
         <SwiperSlide className={style.slide}></SwiperSlide>
         <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
+        <SwiperSlide className={style.slide}></SwiperSlide> */}
 
-        {/* <SwiperSlide style={{ maxWidth: "max-content" }}>
+        <SwiperSlide style={{ maxWidth: "max-content" }}>
           <div className={style.slide_1}>
             <div className={style.slide_text}>
               <span>DOMAIN NAMES</span>
@@ -49,7 +49,7 @@ const Slides = ({ setSwiperInstance }) => {
               <Link href="#">Find Your Domain</Link>
             </div>
             <div className={style.img}>
-              <Image src="/download.webp" height={382} width={500} alt="img" />
+              <Image src="/download.webp" height={370} width={370} alt="img" />
             </div>
           </div>
         </SwiperSlide>
@@ -59,7 +59,7 @@ const Slides = ({ setSwiperInstance }) => {
             <SwiperSlide style={{ maxWidth: "max-content" }} key={elm.img}>
               <div className={style.slide}>
                 <div className={style.img}>
-                  <Image src={elm.img} height={286} width={358} alt="img" />
+                  <Image src={elm.img} height={286} width={320} alt="img" />
                 </div>
                 <div className={style.slide_text}>
                   <h4>{elm.title}</h4>
@@ -69,7 +69,7 @@ const Slides = ({ setSwiperInstance }) => {
               </div>
             </SwiperSlide>
           );
-        })}*/}
+        })}
       </Swiper>
     </div>
   );
