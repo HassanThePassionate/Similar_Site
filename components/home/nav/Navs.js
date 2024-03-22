@@ -5,7 +5,7 @@ const Navs = () => {
   return (
     <div className=" bg-white border-b-[1px] border-[#D6D6D6] sticky top-0 z-50">
       <div className="container">
-        <div className="h-[72px] flex items-center">
+        <div className=" flex items-center">
           <div>
             <h3 className=" font-bold">Domain Tools and Services</h3>
           </div>

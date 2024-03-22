@@ -14,7 +14,7 @@ const gdsage = localFont({
 });
 const Home = () => {
   return (
-    <div className="bg-[#D7EFEF] px-[70px] m-[16px] rounded-md ">
+    <div className="bg-[#D7EFEF] px-[76px] m-[16px] rounded-md ">
       <div className="container ">
         <div className="flex justify-between">
           <div className="flex py-[76px]  justify-center flex-col">
