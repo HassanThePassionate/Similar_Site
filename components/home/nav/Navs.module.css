@@ -35,7 +35,9 @@
 }
 .list li a {
   color: var(--dark-color);
+  font-size: 14px;
 }
 .list li a svg {
   vertical-align: middle;
+  margin-left: 2px;
 }
