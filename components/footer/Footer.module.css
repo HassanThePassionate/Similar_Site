@@ -18,7 +18,11 @@
 }
 .list li {
   margin-bottom: 0.75rem;
+}
+.list li a {
   text-decoration: underline;
+
+  font-weight: 400;
 }
 
 .copyright p {

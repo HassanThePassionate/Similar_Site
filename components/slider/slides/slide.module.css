@@ -8,9 +8,16 @@
   cursor: pointer;
   height: 500px;
   width: 100%;
-  max-width: 300px;
+  max-width: 16vw;
 }
-
+.img .img_1 {
+  height: 350px;
+  width: 350px;
+}
+.img .img_2 {
+  height: 300px;
+  width: 280px;
+}
 .wrapper h4 {
   font-size: 17px;
   line-height: 28px;
@@ -29,7 +36,8 @@
   display: flex;
   align-items: start;
   cursor: pointer;
-  max-width: 590px;
+  width: 100%;
+  max-width: 35vw;
   height: 500px;
 }
 .slide_1 p {
@@ -48,4 +56,24 @@
 }
 .img {
   align-self: center;
+}
+@media screen and (max-width: 1500px) {
+  .slide_1 {
+    width: 100%;
+    max-width: 32vw;
+    height: 400px;
+  }
+  .slide {
+    height: 400px;
+    width: 100%;
+    max-width: 15vw;
+  }
+  .img .img_1 {
+    height: 250px;
+    width: 250px;
+  }
+  .img .img_2 {
+    height: 220px;
+    width: 200px;
+  }
 }

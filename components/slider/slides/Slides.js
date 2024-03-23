@@ -13,7 +13,7 @@ const Slides = ({ setSwiperInstance }) => {
     <div className={style.wrapper}>
       <Swiper
         slidesPerView="auto"
-        spaceBetween={24}
+        spaceBetween={14}
         // grid={{
         //   rows: 3,
         // }}
@@ -49,7 +49,13 @@ const Slides = ({ setSwiperInstance }) => {
               <Link href="#">Find Your Domain</Link>
             </div>
             <div className={style.img}>
-              <Image src="/download.webp" height={370} width={370} alt="img" />
+              <Image
+                src="/download.webp"
+                height={250}
+                width={250}
+                alt="img"
+                className={style.img_1}
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -59,7 +65,13 @@ const Slides = ({ setSwiperInstance }) => {
             <SwiperSlide style={{ maxWidth: "max-content" }} key={elm.img}>
               <div className={style.slide}>
                 <div className={style.img}>
-                  <Image src={elm.img} height={286} width={320} alt="img" />
+                  <Image
+                    src={elm.img}
+                    height={200}
+                    width={220}
+                    alt="img"
+                    className={style.img_2}
+                  />
                 </div>
                 <div className={style.slide_text}>
                   <h4>{elm.title}</h4>
