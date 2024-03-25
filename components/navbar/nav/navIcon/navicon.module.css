@@ -9,13 +9,13 @@
   justify-content: center;
 }
 .help_icon {
-  color: var(--btn_color);
+  color: var(--btn-color);
   padding-top: 8px;
   transition: all 0.3s ease-in-out;
 }
 .icon {
   padding-top: 8px;
-  color: var(--btn_color);
+  color: var(--btn-color);
   transition: all 0.3s ease-in-out;
 }
 .icon:hover {
@@ -28,13 +28,14 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  color: var(--btn_color);
+  color: var(--btn-color);
   transition: all 0.3s ease-in-out;
+  margin-top: 10px;
 }
 .wrap:hover {
   color: var(--hover-color);
   text-decoration: underline;
 }
 .wrap span:last-child {
-  padding-top: 8px;
+  padding-top: 5px;
 }

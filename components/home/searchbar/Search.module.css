@@ -1,9 +1,9 @@
 .search {
   display: flex;
-  margin-top: 16px;
+  margin-top:16px;
 }
 .search input {
-  height: 42px;
+  height: 50px;
   width: 400px;
   padding: 8px;
   border: 1px solid #767676;

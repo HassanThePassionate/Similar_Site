@@ -9,17 +9,17 @@ const NavIcon = () => {
     <ul className={style.list}>
       <li>
         <Link href="#">
-          <IoIosHelpCircleOutline size={30} className={style.help_icon} />
+          <IoIosHelpCircleOutline size={35} className={style.help_icon} />
         </Link>
       </li>
       <li>
         <Link href="#">
-          <LuShoppingCart size={22} className={style.icon} />
+          <LuShoppingCart size={30} className={style.icon} />
         </Link>
       </li>
       <li>
         <Link href="#">
-          <FaRegBell size={22} className={style.icon} />
+          <FaRegBell size={30} className={style.icon} />
         </Link>
       </li>
       <li>
