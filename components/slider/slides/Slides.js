@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { data } from "../../../constant/SliderData";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Slides = ({ setSwiperInstance }) => {
   return (
@@ -24,9 +25,8 @@ const Slides = ({ setSwiperInstance }) => {
           prevEl: "#prevs",
         }}
         className="mySwiper"
-      style={{padding:  "20px"}}
+        style={{ padding: "20px" }}
       >
-
         <SwiperSlide style={{ maxWidth: "38%" }}>
           <div className={style.slide_1}>
             <div className={style.slide_text}>

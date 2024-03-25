@@ -20,20 +20,20 @@ max-width: fit-content;
 width: 100%;
 }
 .wrapper h4 {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 24px;
   font-weight: 600;
   margin: 10px 0;
 }
 .wrapper a {
   color: var(--dark-color);
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: underline;
 }
 
 .slide p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 .slide_1 {
@@ -53,7 +53,7 @@ width: 100%;
   border-radius: 12px;
 }
 .slide_1 p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 .slide_1 .slide_text {
@@ -61,13 +61,15 @@ width: 100%;
   width: 40%;
   flex-grow: 1;
 }
+
 .wrapper span {
-  background-color: var(--hover-color);
-  font-size: 10px;
-  padding: 4px 8px;
-  font-weight: 500;
+  background-color: #A6FFF8;
+  font-size: 12px;
+  padding: 4px 8px 3px;
+  font-weight: 600;
   letter-spacing: 3px;
 }
+
 .img {
   align-self: center;
 }
