@@ -15,12 +15,14 @@
   font-size: 1.5rem;
   line-height: 2rem;
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 .list li {
   margin-bottom: 0.75rem;
 }
 .list li a {
   text-decoration: underline;
+  font-weight: 600;
 
   font-weight: 400;
 }

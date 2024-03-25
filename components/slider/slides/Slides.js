@@ -13,7 +13,7 @@ const Slides = ({ setSwiperInstance }) => {
     <div className={style.wrapper}>
       <Swiper
         slidesPerView="auto"
-        spaceBetween={24}
+        spaceBetween={20}
         // grid={{
         //   rows: 3,
         // }}
@@ -27,7 +27,7 @@ const Slides = ({ setSwiperInstance }) => {
       style={{padding:  "20px"}}
       >
 
-        <SwiperSlide style={{ maxWidth: "35%" }}>
+        <SwiperSlide style={{ maxWidth: "38%" }}>
           <div className={style.slide_1}>
             <div className={style.slide_text}>
               <span>DOMAIN NAMES</span>
