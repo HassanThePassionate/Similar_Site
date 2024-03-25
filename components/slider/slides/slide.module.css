@@ -20,7 +20,7 @@ max-width: fit-content;
 width: 100%;
 }
 .wrapper h4 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   font-weight: 600;
   margin: 10px 0;
@@ -58,6 +58,8 @@ width: 100%;
 }
 .slide_1 .slide_text {
   align-self: center;
+  width: 40%;
+  flex-grow: 1;
 }
 .wrapper span {
   background-color: var(--hover-color);
