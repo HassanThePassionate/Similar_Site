@@ -54,8 +54,8 @@ const Slides = ({ setSwiperInstance }) => {
                 <div className={style.img}>
                   <Image
                     src={elm.img}
-                    height={189}
-                    width={236}
+                    height={290}
+                    width={300}
                     alt="img"
                     className={style.img_2}
                   />
