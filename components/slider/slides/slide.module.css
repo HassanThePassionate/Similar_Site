@@ -6,9 +6,9 @@
   align-items: center;
   flex-direction: column;
   cursor: pointer;
-  height: 500px;
+  height: 600px;
   width: 100%;
-  max-width: 16vw;
+  max-width: 18.5vw;
 }
 .img .img_1 {
   height: 350px;
@@ -38,7 +38,7 @@
   cursor: pointer;
   width: 100%;
   max-width: 35vw;
-  height: 500px;
+  height: 600px;
 }
 .slide_1 p {
   font-size: 15px;
@@ -58,7 +58,7 @@
   align-self: center;
 }
 @media screen and (max-width: 1500px) {
-  .slide_1 {
+  /* .slide_1 {
     width: 100%;
     max-width: 32vw;
     height: 400px;
@@ -67,7 +67,7 @@
     height: 400px;
     width: 100%;
     max-width: 15vw;
-  }
+  } */
   .img .img_1 {
     height: 250px;
     width: 250px;

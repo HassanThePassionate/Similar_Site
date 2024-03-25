@@ -25,22 +25,8 @@ const Slides = ({ setSwiperInstance }) => {
         }}
         className="mySwiper"
       >
-        {/* <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide>
-        <SwiperSlide className={style.slide}></SwiperSlide> */}
 
-        <SwiperSlide style={{ maxWidth: "max-content" }}>
+        <SwiperSlide style={{ maxWidth: "38%" }}>
           <div className={style.slide_1}>
             <div className={style.slide_text}>
               <span>DOMAIN NAMES</span>
@@ -62,7 +48,7 @@ const Slides = ({ setSwiperInstance }) => {
 
         {data.map((elm) => {
           return (
-            <SwiperSlide style={{ maxWidth: "max-content" }} key={elm.img}>
+            <SwiperSlide style={{ maxWidth: "20%" }} key={elm.img}>
               <div className={style.slide}>
                 <div className={style.img}>
                   <Image
