@@ -134,8 +134,8 @@ const Footer = () => {
       </div>
       <div className={style.copyright}>
         <p>
-          Copyright © 1999 - 2024 GoDaddy Operating Company, LLC. All rights
-          reserved.
+          Copyright &copy; 1999 - 2024 GoDaddy Operating Company, LLC. All
+          rights reserved.
         </p>
       </div>
     </div>
