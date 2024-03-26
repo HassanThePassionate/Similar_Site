@@ -97,5 +97,7 @@
   padding: 1px 8px;
   border-radius: 15px;
   background-color: rgb(250, 208, 215);
-  width: 22%;
+  width: 60px;
+  font-size: 12px;
+  line-height: 18px;
 }
