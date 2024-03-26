@@ -1,15 +1,5 @@
 import Link from "next/link";
-import localFont from "@next/font/local";
-
-const gdsage = localFont({
-  src: [
-    {
-      path: "../../public/GDSageBold.ttf",
-      weight: "700",
-    },
-  ],
-  variable: "--font-gdsage",
-});
+import style from "./navText.module.css";
 const NavText = () => {
   return (
     <div className="bg-white">
@@ -24,9 +14,7 @@ const NavText = () => {
             </Link>
           </div>
 
-          <h1
-            className={`text-5xl leading-[56px] font-extrabold ${gdsage.variable} font-serif`}
-          >
+          <h1 className={`text-5xl leading-[56px] ${style.title}`}>
             GoDaddy Help
           </h1>
         </div>
