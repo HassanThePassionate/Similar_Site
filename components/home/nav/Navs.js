@@ -1,6 +1,5 @@
 import Link from "next/link";
 import style from "./Navs.module.css";
-
 const Navs = () => {
   return (
     <div className={style.wrapper}>
@@ -17,12 +16,12 @@ const Navs = () => {
             <li>
               <Link href="#">Primium DNS</Link>
             </li>
-            <li>
-              <Link href="#" className="flex items-center gap-1">
+            <li className={style.last}>
+              <Link href="#" className="flex items-center gap-1 ">
                 More
                 <span>
                   <svg
-                    className="svg-icon mt-1"
+                    className={style.svg_icon}
                     height={20}
                     width={20}
                     viewBox="0 0 1024 1024"
@@ -33,6 +32,17 @@ const Navs = () => {
                   </svg>
                 </span>
               </Link>
+              <ul className={style.drop_down}>
+                <li>
+                  <Link href="#">Domain Broker Service</Link>
+                </li>
+                <li>
+                  <Link href="#">Domain Backorder</Link>
+                </li>
+                <li>
+                  <Link href="#">Domain Privacy</Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
