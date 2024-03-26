@@ -1,5 +1,10 @@
 import React from "react";
 import style from "./rating.module.css";
+import Review from "../review/Review";
+import Cards from "../cards/Cards";
+import Tags from "../tags/Tags";
+// import Circle from "../circle/Circle";
+import Score from "../score/Score";
 const Rating = () => {
   return (
     <div className="container">
@@ -33,12 +38,13 @@ const Rating = () => {
                 similarsite.com
               </span>
             </div>
-
+            <Review />
             <p className="text-base mt-[12px]">
               Discover how your top competitor’s audience surfs the web so you
               can tailor your website experience perfectly at every stage of the
               customer journey
             </p>
+            <Tags />
           </div>
           <div className={style.right_side}>
             <div className={style.list}>
@@ -97,31 +103,11 @@ const Rating = () => {
                 </div>
               </div>
             </div>
+            <Score />
           </div>
         </div>
-        <div className={style.cards}>
-          <div className={style.card}>
-            <div className={style.line_1}></div>
-            <span className={style.title}>Authority Score</span>
-            <span className={style.des}>39</span>
-          </div>
-          <div className={style.card}>
-            <div className={style.line}></div>
-            <span className={style.title}>Visits</span>
-            <span className={style.des}>309.09K</span>
-            <span className={style.percentage}>-39.89%</span>
-          </div>
-          <div className={style.card}>
-            <div className={style.line}></div>
-            <span className={style.title}>Pages/Visits</span>
-            <span className={style.des}>2.2</span>
-          </div>
-          <div className={style.card}>
-            <div className={style.line}></div>
-            <span className={style.title}>Bounce rate</span>
-            <span className={style.des}>57.7%</span>
-          </div>
-        </div>
+        <Cards />
+        {/* <Circle /> */}
       </div>
     </div>
   );

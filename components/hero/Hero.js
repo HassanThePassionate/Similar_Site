@@ -1,4 +1,4 @@
-import Rating from "../post/Rating/Rating";
+import Rating from "../post/rating/Rating";
 import Link from "next/link";
 import { CiMail } from "react-icons/ci";
 import { FaFacebook } from "react-icons/fa";
@@ -16,7 +16,7 @@ const Hero = () => {
           columnGap: "15px",
         }}
       >
-        <div className="bg-white border-[1px] border-[#d4dbe0] text-black  pt-[40px] px-[30px] pb-[20px]">
+        <div className="bg-white text-black   px-[30px] pb-[20px]">
           <Rating />
           <h2 className="text-3xl font-semibold mt-[32px] mb-[16px] ">
             More info
