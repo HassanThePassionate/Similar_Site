@@ -29,7 +29,6 @@
 .wrap {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 .left_title {
   display: flex;
