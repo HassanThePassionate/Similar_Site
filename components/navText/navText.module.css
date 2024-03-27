@@ -1,0 +1,19 @@
+.wrapper{
+    background-color: var(--light-color);
+}
+.iteam{
+    padding: 20px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.links a{
+    font-weight: 500;
+    text-decoration: underline;
+}
+.title{
+    font-weight: 800;
+     font-family: "gdsage";;
+}
