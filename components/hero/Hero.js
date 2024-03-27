@@ -1,10 +1,10 @@
-import Rating from "../post/rating/Rating";
 import Link from "next/link";
 import { CiMail } from "react-icons/ci";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaPinterestP } from "react-icons/fa6";
+import Rating from "../post/Rating/Rating";
 
 const Hero = () => {
   return (
