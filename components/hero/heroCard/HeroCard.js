@@ -6,7 +6,7 @@ import HeroImage from "../heroImage/HeroImage";
 import HeroRating from "../heroRating/HeroRating";
 import Links from "../officallinks/Links";
 import Rank from "@/components/post/card/rank/Rank";
-// import ImageSlider from "../imageSlider/ImageSlider";
+import ImageSlider from "../imageSlider/ImageSlider";
 
 const HeroCard = () => {
   return (
@@ -33,7 +33,7 @@ const HeroCard = () => {
         </div>
         <div>
           <Rank />
-          {/* <ImageSlider /> */}
+          <ImageSlider />
         </div>
       </div>
       <Links />

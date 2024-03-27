@@ -1,7 +1,7 @@
 import React from "react";
 import GIcon from "../globalIcon/GIcon";
 import style from "./title.module.css";
-import Rating from "../../rating/Rating";
+import Rating from "../../Rating/Rating";
 
 const Title = () => {
   return (
