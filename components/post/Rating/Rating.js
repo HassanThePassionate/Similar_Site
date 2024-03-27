@@ -3,7 +3,7 @@ import style from "./rating.module.css";
 import Review from "../review/Review";
 import Cards from "../cards/Cards";
 import Tags from "../tags/Tags";
-// import Circle from "../circle/Circle";
+import Circle from "../circle/Circle";
 import Score from "../score/Score";
 const Rating = () => {
   return (
@@ -45,6 +45,7 @@ const Rating = () => {
               customer journey
             </p>
             <Tags />
+            <Cards />
           </div>
           <div className={style.right_side}>
             <div className={style.list}>
@@ -106,8 +107,6 @@ const Rating = () => {
             <Score />
           </div>
         </div>
-        <Cards />
-        {/* <Circle /> */}
       </div>
     </div>
   );

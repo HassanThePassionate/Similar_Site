@@ -5,6 +5,27 @@
   position: relative;
   z-index: 1080;
 }
+.circle {
+  width: 244px;
+  height: 244px;
+  top: -78px;
+  right: -100px;
+  background: rgb(220, 200, 20);
+  border-radius: 50%;
+}
+.img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 8px;
+  overflow: hidden;
+  border-style: solid;
+  border-color: #fff;
+  border-radius: 5px;
+  background: #f6f7f9;
+  box-shadow: 0 9px 10px rgba(27, 38, 83, 0.12);
+}
+
 .wrap {
   display: flex;
   justify-content: space-between;

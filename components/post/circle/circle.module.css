@@ -1,14 +1,9 @@
-.wrapper {
-  position: relative;
-  z-index: 1090;
-}
 .circle {
   width: 244px;
   height: 244px;
   top: -78px;
   right: -100px;
   background: rgb(220, 200, 20);
-  position: absolute;
   border-radius: 50%;
 }
 .img {
