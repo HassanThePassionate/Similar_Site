@@ -1,7 +1,7 @@
 import Link from "next/link";
-import style from "./review.module.css";
+import style from "./rating.module.css";
 
-const Review = () => {
+const Rating = () => {
   return (
     <div className={style.wrapper}>
       <Link href="#">
@@ -17,4 +17,4 @@ const Review = () => {
   );
 };
 
-export default Review;
+export default Rating;

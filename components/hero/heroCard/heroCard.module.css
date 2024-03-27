@@ -1,0 +1,27 @@
+.wrapper {
+  background-color: #f5f9fd;
+  margin: 2.5rem 0;
+  padding: 32px;
+}
+.wrap {
+  display: flex;
+  gap: 50px;
+}
+.card {
+  display: flex;
+  flex: 1;
+}
+.card_title {
+  color: rgb(0, 58, 91);
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  margin-bottom: 5.3px;
+}
+.card_content p {
+  color: rgb(0, 58, 91);
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  margin: 5.3px 0;
+}

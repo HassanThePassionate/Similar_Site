@@ -4,35 +4,32 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaPinterestP } from "react-icons/fa6";
-import Rating from "../post/Rating/Rating";
+import Rating from "../post/card/Card";
+import HeroCard from "./heroCard/HeroCard";
 
 const Hero = () => {
   return (
     <div className="container">
+      <HeroCard />
+      <h2
+        className="text-3xl"
+        style={{
+          fontFamily: "gdsage",
+        }}
+      >
+        Top 7 google.com Alternative and Competitor
+      </h2>
       <div
         className="py-8 grid"
         style={{
-          gridTemplateColumns: "minmax(0, 7fr) minmax(0, 3fr) ",
+          gridTemplateColumns: "minmax(0, 9fr) minmax(0, 3fr) ",
           columnGap: "15px",
         }}
       >
-        <div className="bg-white text-black   px-[30px] pb-[20px]">
-          <Rating />
-          <h2 className="text-3xl font-semibold mt-[32px] mb-[16px] ">
-            More info
-          </h2>
-          <ul>
-            <li className="my-3">
-              <Link href="#" className="underline text-[#09757a]  ">
-                Improve Google indexing
-              </Link>
-            </li>
-            <li className="my-3">
-              <Link href="#" className="underline text-[#09757a]  ">
-                Create a sitemap in WordPress
-              </Link>
-            </li>
-          </ul>
+        <div className="bg-white text-black  pb-[20px]">
+          {[...Array(7)].map((a, i) => (
+            <Rating key={i} />
+          ))}
         </div>
         <div>
           <div className="bg-white border-[1px] border-[#d4dbe0] text-black  p-[20px] mb-5">

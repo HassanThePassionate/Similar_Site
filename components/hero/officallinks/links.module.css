@@ -1,0 +1,38 @@
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+}
+.title {
+  color: rgb(0, 58, 91);
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.btns a {
+  margin-right: 8px;
+  margin-top: 12px;
+  display: flex;
+}
+.btns button {
+  display: flex;
+  padding: 0.48rem 2.6em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dark_btn {
+  justify-content: center;
+  background-color: #000;
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  padding: 6px;
+  align-items: center;
+  min-width: 172px;
+}
+.dark_btn .img {
+  width: 100%;
+  padding: 6px;
+  height: 40px;
+}

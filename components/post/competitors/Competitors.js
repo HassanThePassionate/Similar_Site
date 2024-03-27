@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import style from "./cards.module.css";
+import style from "./competitors.module.css";
 import Image from "next/image";
 import { data } from "../../../constant/CardsData";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import Buttons from "./button/Buttons";
 
-const Cards = () => {
+const Competitors = () => {
   const [swiperInstance, setSwiperInstance] = useState(null);
   const goNexts = () => swiperInstance && swiperInstance.slideNext();
   const goPrevs = () => swiperInstance && swiperInstance.slidePrev();
@@ -20,14 +20,14 @@ const Cards = () => {
       <div className={style.cards}>
         <Swiper
           slidesPerView={3}
-          spaceBetween={20}
+          spaceBetween={30}
           modules={[Navigation]}
           onSwiper={(swiper) => setSwiperInstance(swiper)}
           navigation={{
             nextEl: "#nexts",
             prevEl: "#prevs",
           }}
-          className="mySwiper max-w-[650px]"
+          className="mySwiper max-w-[800px] "
         >
           {data.map((elm, id) => (
             <SwiperSlide key={id}>
@@ -51,4 +51,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default Competitors;

@@ -3,15 +3,12 @@ import style from "./circle.module.css";
 
 const Circle = () => {
   return (
-    <div className={style.wrapper}>
-    
-        <div className={style.circle}></div>
-
-        <div className={style.img}>
-          <Image src="/image.png" alt="img" height={127} width={170} />
-        </div>
-    
-    </div>
+    <>
+      <div className={style.img}>
+        <Image src="/image.png" alt="img" height={127} width={170} />
+      </div>
+      <div className={style.circle}></div>
+    </>
   );
 };
 

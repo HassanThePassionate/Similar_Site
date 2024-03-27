@@ -1,7 +1,6 @@
 .wrapper {
   display: flex;
-  margin-left: 50px;
-  margin-top: 10px;
+  margin-left: 20px;
 }
 .wrapper a {
   display: flex;
