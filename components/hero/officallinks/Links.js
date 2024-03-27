@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 const Links = () => {
   return (
-    <div className="mt-[30px]">
+    <div className="mt-[10px]">
       <h3 className={style.title}>Official Links</h3>
       <div className={style.btns}>
         <Link href="#">
