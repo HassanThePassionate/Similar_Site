@@ -50,6 +50,7 @@ const HeroCard = () => {
               </div>
             </div>
           </div>
+
           <div className={style.about_title}>
             <h1 className={style.title}>Mozilla Firefox</h1>
             <div className={style.para}>
@@ -118,8 +119,8 @@ const HeroCard = () => {
             <Rank />
             <ImageSlider />
           </div>
+          <Links />
         </div>
-        <Links />
       </div>
     </div>
   );

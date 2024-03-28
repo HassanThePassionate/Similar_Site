@@ -1,7 +1,7 @@
 .btns {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1300px;
+  padding-right: 240px;
 }
 .title {
   color: rgb(0, 58, 91);
