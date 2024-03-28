@@ -10,10 +10,6 @@ const nextConfig = {
         protocol: "https",
         hostname: "d4.alternativeto.net",
       },
-      {
-        protocol: "https",
-        hostname: "filecr.com",
-      },
     ],
   },
 };
