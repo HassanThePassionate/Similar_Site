@@ -12,7 +12,7 @@ const Hero = () => {
     <div className="container">
       <HeroCard />
       <h2
-        className="text-3xl"
+        className="text-3xl mt-[40px] mb-[20px]"
         style={{
           fontFamily: "gdsage",
         }}
@@ -20,7 +20,7 @@ const Hero = () => {
         Top 7 google.com Alternative and Competitor
       </h2>
       <div
-        className="py-8 grid"
+        className=" grid"
         style={{
           gridTemplateColumns: "minmax(0, 9fr) minmax(0, 3fr) ",
           columnGap: "15px",

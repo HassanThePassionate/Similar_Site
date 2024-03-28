@@ -36,6 +36,7 @@ const ImageSlider = () => {
       swiper.slideTo(index);
     }
   };
+
   return (
     <div className="mt-[50px]">
       <Swiper

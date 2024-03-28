@@ -29,10 +29,13 @@
   width: 100%;
   padding: 6px;
   align-items: center;
-  min-width: 172px;
+  min-width: 182px;
 }
 .dark_btn .img {
-  width: 100%;
+  width: 170px;
   padding: 6px;
-  height: 40px;
+  height: 45px;
+}
+.dark_btn:hover {
+  background-color: #181515;
 }
