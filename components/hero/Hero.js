@@ -26,7 +26,7 @@ const Hero = () => {
           columnGap: "15px",
         }}
       >
-        <div className="bg-white text-black  pb-[20px]">
+        <div className="bg-white text-black pr-[30px] pb-[20px]">
           {[...Array(7)].map((a, i) => (
             <Rating key={i} />
           ))}
