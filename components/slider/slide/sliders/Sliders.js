@@ -20,7 +20,8 @@ const Sliders = ({ setSwiperInstance }) => {
           nextEl: "#nexts",
           prevEl: "#prevs",
         }}
-        className="mySwiper p-[20px]"
+        className="mySwiper"
+        style={{ padding: "20px" }}
       >
         <SwiperSlide>
           <div className={style.slide}>
