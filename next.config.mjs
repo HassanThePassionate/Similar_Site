@@ -12,7 +12,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "static.filehorse.com",
+        hostname: "filecr.com",
       },
     ],
   },
