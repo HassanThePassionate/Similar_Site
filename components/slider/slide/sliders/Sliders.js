@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import Title from "../title/Title";
 import Tags from "../tags/Tags";
-import Rank from "@/components/post/card/rank/Rank";
+import Rank from "../rank/Rank";
 
 const Sliders = ({ setSwiperInstance }) => {
   return (

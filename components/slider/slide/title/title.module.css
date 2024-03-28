@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   max-width: fit-content;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .link {
   background-color: #e9f8f3;
@@ -12,7 +14,6 @@
   line-height: 24px;
   font-size: 0.8125rem;
   margin-top: 5px;
-  margin-left: 10px;
 }
 .link:hover {
   background-color: #e9f8f3;

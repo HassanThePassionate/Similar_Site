@@ -8,7 +8,7 @@ const Title = () => {
     <>
       <div className={style.title}>
         <GIcon />
-        <span className="ml-[12px] text-[22px] font-bold">similarsite.com</span>
+        <span className=" text-[22px] font-bold">similarsite.com</span>
         <Link href="#" className={style.link}>
           Free • Open Source
         </Link>
