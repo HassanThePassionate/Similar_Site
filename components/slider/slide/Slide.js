@@ -1,14 +1,15 @@
 "use client";
 import React, { useState } from "react";
-import Tab from "./tab/Tab";
-import Buttons from "./button/Buttons";
-import Slides from "./slides/Slides";
-import style from "./slider.module.css";
-const Slider = () => {
+import style from "./slide.module.css";
+import Tab from "../tab/Tab";
+import Buttons from "../button/Buttons";
+import Slider from "../Slider";
+import Sliders from "./sliders/Sliders";
+
+const Slide = () => {
   const [swiperInstance, setSwiperInstance] = useState(null);
   const goNexts = () => swiperInstance && swiperInstance.slideNext();
   const goPrevs = () => swiperInstance && swiperInstance.slidePrev();
-
   return (
     <div className="container">
       <div className={style.wrapper}>
@@ -16,6 +17,7 @@ const Slider = () => {
         <div className={style.wrap}>
           <div className={style.tab_wrap}>
             <div className={style.tab}>Recommended</div>
+
             <Tab title="Create my website" />
             <Tab title="Connect with customers" />
             <Tab title="Build and protect your brand" />
@@ -24,10 +26,10 @@ const Slider = () => {
             <Buttons next={goNexts} prev={goPrevs} />
           </div>
         </div>
-        <Slides setSwiperInstance={setSwiperInstance} />
+        <Sliders setSwiperInstance={setSwiperInstance} />
       </div>
     </div>
   );
 };
 
-export default Slider;
+export default Slide;
