@@ -129,3 +129,9 @@
   position: relative;
   align-items: center;
 }
+.svg {
+  transition: all 0.3s;
+}
+.btn:hover .svg {
+  color: red;
+}

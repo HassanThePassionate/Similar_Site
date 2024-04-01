@@ -61,8 +61,8 @@ const ImageSlider = () => {
             <Image
               src={img.url}
               alt="img"
-              width={280}
-              height={280}
+              width={300}
+              height={300}
               className={style.img}
             />
           </SwiperSlide>
